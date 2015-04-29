@@ -40,6 +40,14 @@ $('#about').click(function(e){
       },500);
 }); 
 
+// Scroll UP
+$('#app-goup').click(function(e){
+      $('html, body').animate({
+         scrollTop: ($('.container').offset().top)
+      },1000);
+}); 
+
+
 // Apps Buttons
 $('#food-app-btn').click(function(e){
       e.preventDefault();
@@ -83,37 +91,6 @@ $('#game-app-btn').click(function(e){
 
 // $('.app5').on('mouseleave',function(e){
 //    $('.app6').fadeOut(100);
-// });  
-
-
-// ppt - To be debugged
-
-// $('.ppt2, .ppt4, .ppt6').fadeOut(0);
-
-   
-// $('.ppt1').on('mouseenter',function(e){
-//    $('.ppt2').fadeIn(500);
-// });  
-
-// $('.ppt1').on('mouseleave',function(e){
-//    $('.ppt2').fadeOut(100);
-// });  
-
-// $('.ppt3').on('mouseenter',function(e){
-//    $('.ppt4').fadeIn(500);
-// });  
-
-// $('.ppt3').on('mouseleave',function(e){
-//    $('.ppt4').fadeOut(100);
-// });  
-
-
-// $('.ppt5').on('mouseenter',function(e){
-//    $('.ppt6').fadeIn(500);
-// });  
-
-// $('.ppt5').on('mouseleave',function(e){
-//    $('.ppt6').fadeOut(100);
 // });  
 
 

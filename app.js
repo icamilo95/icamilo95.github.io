@@ -51,7 +51,7 @@ $('#game-app-btn').click(function(e){
 });  
 
 
-$('.app2, .app4, .app6, .ppt-row, .ppt-heading, .resume-heading, .resume-img' ).fadeOut(0);
+// $('.app2, .app4, .app6, .ppt-row, .ppt-heading, .resume-heading, .resume-img' ).fadeOut(0);
 
 // To be debugged   
 // $('.app1').on('mouseenter',function(e){

@@ -6,6 +6,12 @@ $('.btn-1').click(function(e){
       window.open('https://www.linkedin.com/in/camiloordonezj');
 }); 
 
+// Resume Button
+$('#about').click(function(e){
+      e.preventDefault();
+      window.open('img/Camilo Ordonez.pdf');
+}); 
+
 // Display APPS
 $('#apps').click(function(e){
       $('.apps-row, .app-heading').fadeIn(500);

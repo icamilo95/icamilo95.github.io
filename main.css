@@ -1,0 +1,246 @@
+/*----------------------Phone Number----------------------*/
+.phone-well {
+  padding-bottom: 6px;
+  border-radius: 0;
+  padding-right: 90px;  
+   margin-bottom: 0px;
+   background: #474747;
+   color: #61B6E2;
+   border-style: none;
+}
+
+/*--------------------------Menu Bar-----------------------*/
+.navbar {
+  background:transparent;
+  border-style: none;
+}
+
+/*---Makes Menu bar transparent dark----*/
+.navbar-cami {
+  background-color: rgba(100,100,100,0.5);
+}
+
+.navbar-default .navbar-brand > p{
+    color: white;
+    font-size: 30px;
+    font-family: Lobster;
+}
+
+/* LOGO */
+.navbar-default .navbar-brand {
+    color: white;
+
+}
+
+/* links */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+
+/*home*/
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #61B6E2;
+    background: none;
+}
+
+
+
+
+/*-----------------------------JUMBOTRON----------------------*/
+
+.container .jumbotron {
+  background: url('img/background.jpg') ; 
+  margin-top: -70px;
+  z-index: -3;
+  background-size: cover;
+  min-height: 400px;  
+  color: white;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+
+.jumbo-text, .jumbo-text-p {
+  padding: 30px 0px 0px 33px;
+}
+
+.jumbo-text-p{
+  padding: 0px 0px 0px 33px;
+  font-size: 14px;
+  font-family:  Arial;
+}
+
+.btn-1{
+  font-size: 14px;
+  margin-left: 200px;
+  margin-top: -30px;
+  border-style: 1px solid black;
+  background: rgba(100,100,100,0.5);
+  color: white;
+  border-radius: 0px;
+  text-shadow:none !important;
+}
+
+/*----------------------PROFILE HEADING----------------------*/
+.profile-well {
+  border-radius: 0px;
+   margin-bottom: 0px;
+   background: #E7E7E7;
+   color: #61B6E2;
+   border-style: none;
+   height: 50px;
+   padding-top: 15px;
+   padding-left: 50px;
+}
+
+
+/*-----------------------------CAMI SUMMARY----------------------*/
+
+
+.cami-image {
+  width: 300px;
+}
+
+.media-profile {
+  padding-top: 50px;  
+}
+
+/*----------------------APPS HEADING----------------------*/
+.apps-well {
+  border-radius: 0px;
+   /*margin-bottom: 10px;*/
+   background: #474747;
+   color: #61B6E2;
+   border-style: none;
+   height: 50px;
+   padding-top: 15px;
+   padding-left: 50px;
+}
+
+/*----------------------Apps Thumbnails----------------------*/
+
+.btn-app-thumb-1{
+  background: rgba(100,100,100,1);
+  color: white;
+  border-color: black;
+  border-radius: 0px;
+  text-shadow:none !important;
+}
+
+.btn-app-thumb-2{
+  border-color: #474747;
+  border-radius: 0px;
+  text-shadow:none !important;
+}
+
+.app-thumb-border {
+  border-style: none;
+}
+
+
+
+/*-----------------------------NAVBAR END----------------------*/
+
+.contact-well{
+  margin-bottom: 0px;
+}
+
+.navbar-cami-2 {
+  margin-top: -50px;
+}
+
+.navbar-cami-3 {
+  margin-top: 0px;
+}
+
+/*-----------------------------JUMBOTRON----------------------*/
+
+.container .jumbo2{
+  background: url('img/lastimg.jpg') ; 
+  margin-top: 0px;
+  z-index: -3;
+  background-size: cover;
+  min-height: 400px;  
+  color: rgba(50,50,50,1);
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+/*-----------------------------CAROUSEL----------------------*/
+.carousel {   
+   width: 500px;
+   /*height: 100px;*/
+}
+
+
+/*---------------test-----------------*/
+
+
+/*
+.test:after {
+    content: attr(data-content);
+    color:#fff;
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    padding-top: 100px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.test:hover:after {
+    opacity:1;
+    margin-left: 0px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+ 
+ul.img-list li {
+  display: inline-block;
+  height: 150px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 150px;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  /*height: 150px;*/
+  /*left: 0;
+  position: absolute;
+  top: 0;
+  width: 350px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+ 
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+ 
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+*/

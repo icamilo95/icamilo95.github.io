@@ -53,7 +53,7 @@ $('#game-app-btn').click(function(e){
 
 $('.app2, .app4, .app6, .ppt-row, .ppt-heading, .resume-heading, .resume-img' ).fadeOut(0);
 
-   
+// To be debugged   
 $('.app1').on('mouseenter',function(e){
    $('.app2').fadeIn(500);
 });  
@@ -80,7 +80,7 @@ $('.app5').on('mouseleave',function(e){
 });  
 
 
-// ppt
+// ppt - To be debugged
 
 $('.ppt2, .ppt4, .ppt6').fadeOut(0);
 
@@ -109,22 +109,6 @@ $('.ppt5').on('mouseenter',function(e){
 $('.ppt5').on('mouseleave',function(e){
    $('.ppt6').fadeOut(100);
 });  
-
-
-// $(".hover").on ('mouseenter',function(){
-//     $(this).find(".color-overlay").css("visibility", "visible");
-//   });
-
-//  $(".hover").on ('mouseleave',function(){
-//     $(this).find(".color-overlay").css("visibility", "hidden");
-//   });
-
-
-
-
-
-
-
 
 
 

@@ -1,10 +1,11 @@
 $(document).ready(function() { 
 
 // LinkedIn Button
-$('.btn-1').click(function(e){
+$('.btn-1, #link').click(function(e){
       e.preventDefault();
       window.open('https://www.linkedin.com/in/camiloordonezj');
 }); 
+
 
 // Resume Button
 $('#about').click(function(e){

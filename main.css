@@ -173,6 +173,24 @@
   margin-bottom: 0px;
 }
 
+/*-----------------------------ICONS----------------------*/
+
+.icon {
+  font-size: 40px;
+  display: inline-block;
+  color: rgb(50,50,50);
+  /*margin-right: 3px;*/
+}
+
+#phone, #city {
+  font-size: 18px;
+}
+
+#name {
+  font-size: 30px;
+  font-family: Lobster;
+}
+
 /*-----------------------------CAROUSEL----------------------*/
 .carousel {   
    width: 500px;

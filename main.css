@@ -28,13 +28,14 @@
 
 /* LOGO */
 .navbar-default .navbar-brand {
-    color: white;
+    color: red;
 
 }
 
 /* links */
 .navbar-default .navbar-nav > li > a {
     color: white;
+    /*background: red;*/
 }
 
 

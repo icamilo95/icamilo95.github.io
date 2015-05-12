@@ -66,35 +66,7 @@ $('#game-app-btn').click(function(e){
 });  
 
 
-$('.ppt-row, .ppt-heading').fadeOut(0);
-
-// To be debugged   
-// $('.app1').on('mouseenter',function(e){
-//    $('.app2').fadeIn(500);
-// });  
-
-// $('.app1').on('mouseleave',function(e){
-//    $('.app2').fadeOut(100);
-// });  
-
-// $('.app3').on('mouseenter',function(e){
-//    $('.app4').fadeIn(500);
-// });  
-
-// $('.app3').on('mouseleave',function(e){
-//    $('.app4').fadeOut(100);
-// });  
-
-
-// $('.app5').on('mouseenter',function(e){
-//    $('.app6').fadeIn(500);
-// });  
-
-// $('.app5').on('mouseleave',function(e){
-//    $('.app6').fadeOut(100);
-// });  
-
-
+$('.ppt-row, .ppt-heading, .apps-row, .app-heading').fadeOut(0);
 
 
 

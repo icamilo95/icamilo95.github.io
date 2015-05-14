@@ -64,20 +64,20 @@
 }
 
 
-.jumbo-text, .jumbo-text-p {
+.jumbo-text {
   padding: 30px 0px 0px 33px;
 }
 
-.jumbo-text-p{
+.jumbotron .jumbo-text-p{
   padding: 0px 0px 0px 33px;
-  font-size: 14px;
-  font-family:  Arial;
+  padding-right: 63%;
+  font-size: 13px;
 }
 
 .btn-1{
   font-size: 14px;
-  margin-left: 200px;
-  margin-top: -30px;
+  margin-left: 253px;
+  margin-top: -90px;
   border-style: 1px solid black;
   background: rgba(100,100,100,0.5);
   color: white;

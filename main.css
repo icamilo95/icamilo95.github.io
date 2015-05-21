@@ -125,6 +125,59 @@
   margin-right: 40px;
   margin-top: -7px;
 }
+
+/*----------------------Apps Test----------------------*/
+
+.img-block {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+.textbox:hover {
+  opacity:1;
+}
+
+.cont-cam {
+  background-color: #E6E5E6;
+  padding: 0px;
+}
+.textbox {
+width:auto;
+height:auto;
+position:absolute;
+top:3px;
+left:18px;
+right: 18px;
+bottom: 25px;
+opacity:0;
+/*border-radius:5px;*/
+background-color: rgba(0,0,0,0.7);
+-webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.9);
+box-shadow: 0px 0px 15px 2px rgba(255,255,255,.9);
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+padding: 0px;
+}
+
+
+
+.container .row .textbox {
+  color: white;
+  /*margin-top: -10px;*/
+}
+
+.div-img {
+  /*border: 1px solid black;*/
+  padding: 0px 10px 0px 10px ;
+  margin-bottom: 20px;
+}
+
+.img-app {
+  /*width: 50px;*/
+  height: 200px;
+}
+
 /*----------------------Apps Thumbnails----------------------*/
 
 .btn-app-thumb-1{
@@ -201,69 +254,3 @@
 
 /*---------------test-----------------*/
 
-
-/*
-.test:after {
-    content: attr(data-content);
-    color:#fff;
-    position:absolute;
-    width:100%; height:100%;
-    top:0; left:0;
-    background:rgba(0,0,0,0.6);
-    opacity:0;
-    padding-top: 100px;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-}
-.test:hover:after {
-    opacity:1;
-    margin-left: 0px;
-    margin-right: 40px;
-    margin-bottom: 30px;
-}
-
-
-ul.img-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
- 
-ul.img-list li {
-  display: inline-block;
-  height: 150px;
-  margin: 0 1em 1em 0;
-  position: relative;
-  width: 150px;
-}
-
-span.text-content {
-  background: rgba(0,0,0,0.5);
-  color: white;
-  cursor: pointer;
-  display: table;
-  /*height: 150px;*/
-  /*left: 0;
-  position: absolute;
-  top: 0;
-  width: 350px;
-  opacity: 0;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;
-}
- 
-span.text-content span {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
-
- 
-ul.img-list li:hover span.text-content {
-  opacity: 1;
-}
-*/

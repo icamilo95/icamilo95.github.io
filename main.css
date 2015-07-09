@@ -60,7 +60,7 @@
   min-height: 400px;  
   color: white;
   border-radius: 0px;
-  /*margin-bottom: 0px;*/
+  margin-bottom: 0px;
 }
 
 
@@ -87,15 +87,14 @@
 
 /*----------------------PROFILE HEADING----------------------*/
 .profile-well {
-  /*border-radius: 0px;*/
-   /*margin-bottom: 0px;*/
+  border-radius: 0px;
+   margin-bottom: 0px;
    background: #E7E7E7;
    color: #61B6E2;
    border-style: none;
    height: 50px;
    padding-top: 15px;
    padding-left: 50px;
-   display: none;
 }
 
 
@@ -107,14 +106,13 @@
 }
 
 .media-profile {
-  padding-top: 0px;  
+  padding-top: 50px;  
 }
 
 /*----------------------APPS HEADING----------------------*/
-.app-heading {
+.apps-well {
   border-radius: 0px;
-   margin-bottom: 10px;
-   margin-top: 20px;
+   /*margin-bottom: 10px;*/
    background: #474747;
    color: #61B6E2;
    border-style: none;
@@ -130,6 +128,11 @@
 
 /*----------------------Apps Test----------------------*/
 
+.img-block {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
 
 .textbox:hover {
   opacity:1;
@@ -137,43 +140,43 @@
 
 /*body color*/
 .cont-cam {
-  background-color: #EEEEE5;
+  /*background-color: #E6E5E6;*/
   padding: 0px;
 }
-
 .textbox {
-  width:auto;
-  height:auto;
-  position:absolute;
-  top:1%;
-  left: 5%;
-  right: 5%;
-  bottom: 8%;
-  opacity:0;
-  background-color: rgba(0,0,0,0.75);
-  -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,.75);
-  box-shadow: 0px 0px 0px 0px rgba(0,0,0,.75);
-  -webkit-transition: all 0.7s ease;
-  transition: all 0.7s ease;
-  /*padding: 0px;*/
-
+width:auto;
+height:auto;
+position:absolute;
+top:3px;
+left:18px;
+right: 18px;
+bottom: 25px;
+opacity:0;
+/*border-radius:5px;*/
+background-color: rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.9);
+box-shadow: 0px 0px 15px 2px rgba(255,255,255,.9);
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+padding: 0px;
 }
 
 
 /*apps text hover*/
 .container .row .textbox {
   color: white;
+  /*margin-top: -10px;*/
 }
 
-.img-app2 {
-    min-width:100%;
-    min-height:100%;
+.div-img {
+  /*border: 1px solid black;*/
+  padding: 0px 10px 0px 10px ;
+  margin-bottom: 20px;
 }
 
-.thumb-app {
-  height: 300px;
-  /*background-color: #DEDEDE;*/
-  border-style: none;
+.img-app {
+  /*width: 50px;*/
+  height: 200px;
 }
 
 /*----------------------Apps Thumbnails----------------------*/
@@ -192,30 +195,34 @@
   text-shadow:none !important;
 }
 
+.app-thumb-border {
+  border-style: none;
+}
 
 
-/*-----------------------------NAVBAR END CONTACT----------------------*/
+
+/*-----------------------------NAVBAR END----------------------*/
 
 .contact-well{
   margin-bottom: 0px;
 }
 
 .navbar-cami-2 {
-  /*margin-top: -50px;*/
+  margin-top: -50px;
 }
 
 .navbar-cami-3 {
-  /*margin-top: 0px;*/
+  margin-top: 0px;
 }
 
 /*-----------------------------JUMBOTRON 2----------------------*/
 
 .container .jumbo2{
-  background: url('img/lastimg4.jpg') ; 
+  background: url('img/lastimg.jpg') ; 
   margin-top: 0px;
   z-index: -3;
   background-size: cover;
-  min-height: 200px;  
+  min-height: 400px;  
   color: rgba(50,50,50,1);
   border-radius: 0px;
   margin-bottom: 0px;

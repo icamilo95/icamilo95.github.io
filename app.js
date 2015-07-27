@@ -10,7 +10,7 @@ $('.btn-1, #link').click(function(e){
 // Resume Button
 $('#about').click(function(e){
       e.preventDefault();
-      window.open('img/Camilo Ordonez.pdf');
+      window.open('img/Camilo Ordonez1.pdf');
 }); 
 
 // Display APPS

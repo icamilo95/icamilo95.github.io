@@ -45,10 +45,10 @@
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
     color: #61B6E2;
+    /*color: blue;*/
     background: none;
+    /*background: blue;*/
 }
-
-
 
 
 /*-----------------------------JUMBOTRON----------------------*/
@@ -65,14 +65,21 @@
 }
 
 
-.jumbo-text {
-  padding: 30px 0px 0px 33px;
+.jumbotron .jumbo-text-h3 {
+  margin-left: 10px;
+  margin-top: 60px;
+}
+
+.jumbotron .jumbo-text-p {
+  font-size: 14px;
+  margin-right: 35px;
+  margin-left: 10px;
 }
 
 .jumbotron .jumbo-text-p{
-  padding: 0px 0px 0px 33px;
-  padding-right: 63%;
-  font-size: 13px;
+  /*padding: 0px 0px 0px 33px;*/
+  /*padding-right: 63%;*/
+  /*font-size: 13px;*/
 }
 
 .btn-1{
@@ -98,12 +105,21 @@
    padding-left: 50px;
 }
 
+.summary {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /*background-color: rgba(238,235,217,0.5);*/
+  margin-left: 0;
+  margin-right: 0;
+  /*background-color: #EAE6D5;*/
+}
 
 /*-----------------------------CAMI SUMMARY----------------------*/
 
 
-.cami-image {
+.container .summary .img-1 {
   width: 300px;
+  /*margin: 20px 0 20px 0;*/
 }
 
 .media-profile {
@@ -223,10 +239,11 @@ padding: 0px;
   margin-top: 0px;
   z-index: -3;
   background-size: cover;
-  min-height: 400px;  
+  min-height: 280px;  
   color: rgba(50,50,50,1);
   border-radius: 0px;
   margin-bottom: 0px;
+  padding-top: 20px;
 }
 
 /*-----------------------------ICONS----------------------*/
